@@ -50,3 +50,30 @@ img.content-light {
 .thread-list .list-item:not(.unread):not(.selected):not(.focused) {
   color: #aaa;
 }
+
+.thread-list .scroll-region .scroll-region-content-inner .list-rows > div:nth-child(2n) .list-item:not(.selected):not(.focused), .draft-list .scroll-region .scroll-region-content-inner .list-rows > div:nth-child(2n) .list-item:not(.selected):not(.focused) {
+  background-color: @background-secondary !important;
+}
+
+.thread-list .scroll-region .scroll-region-content-inner .list-rows > div:nth-child(2n + 1) .list-item:not(.selected):not(.focused), .draft-list .scroll-region .scroll-region-content-inner .list-rows > div:nth-child(2n + 1) .list-item:not(.selected):not(.focused) {
+  background-color: @background-tertiary !important;
+}
+
+.outline-view .item .item-count-box.alt-count {
+  color: #aaa;
+}
+
+.account-sidebar {
+  background-color: @background-secondary;
+}
+
+.thread-search-bar {
+  background-color: @background-tertiary;
+  color: #aaa;
+}
+
+.scrollbar-track {
+  width: 10px;
+  background: rgba(0,0,0,0);
+  border: none;
+}
