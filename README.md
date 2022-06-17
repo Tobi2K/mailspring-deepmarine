@@ -1,4 +1,4 @@
-# Mailspring Theme Starter
+# Mailspring Deep Marine
 
 This Mailspring Theme is a basic dark theme for
 the [Mailspring](http://www.getmailspring.com/) email client.
