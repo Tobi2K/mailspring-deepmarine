@@ -1,10 +1,9 @@
 {
   "name": "deep-marine",
-  "title": "Deep Marine",
   "displayName": "Deep Marine",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "A custom Mailspring theme.",
+  "description": "A custom deep blue mailspring theme.",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
