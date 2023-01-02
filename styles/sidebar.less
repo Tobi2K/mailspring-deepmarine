@@ -26,6 +26,13 @@
     }
 }
 
+.thread-list .unread:not(.focused) .subject, 
+.draft-list .unread:not(.focused) .subject,
+.thread-list .unread:not(.focused) .participants .unread-true, 
+.draft-list .unread:not(.focused) .participants .unread-true {
+    text-decoration: underline;
+}
+
 // Sync activity
 .sidebar-activity {
     .item .sync-activity .account .folder-progress::before {
@@ -58,4 +65,8 @@
 // List text color
 .outline-view .item .name {
     color: @white;
+}
+
+.outline-view .item.selected .name {
+    color: @light-blue;
 }
